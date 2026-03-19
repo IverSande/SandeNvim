@@ -37,4 +37,4 @@ vim.keymap.set("n", "gD", vim.lsp.buf.definition, { desc = "LSP: Go to definitio
 vim.keymap.set("n", "grt", vim.lsp.buf.type_definition, { desc = "LSP: Type Definition" })
 vim.keymap.set("i", "<C-Space>", "<C-x><C-o>", { noremap = true })
 
-require("lua.config.lazy")
+require("SandeNvim.lua.config.lazy")
